@@ -6,7 +6,7 @@ from nltk import pos_tag
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 import pprint
-
+import _asyncio
 nltk.download("wordnet")
 nltk.download("stopwords")
 nltk.download("punkt")
